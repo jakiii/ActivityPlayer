@@ -1,0 +1,23 @@
+<config>
+  <debug>true</debug>
+  <isWebLogin>false</isWebLogin>
+  <server>
+    <urls>
+      <commendServiceSite>http://dispatch.9aola.com/isp.txt</commendServiceSite>
+      <loginSite>http://login.mygame.com:8888/</loginSite>
+      <serviceSite>http://service.mygame.com:8888/</serviceSite>
+      <homePage>http://www.mygame.com:8888/</homePage>
+      <btGameCenterUrl>http://devlocalstore.100bt.com</btGameCenterUrl>
+      <chatDomainUrl>http://kefu.chat.100bt.com/user/enterUserRoom.do</chatDomainUrl>
+      <snapshotUrl>http://up.9aola.com/snapshot.jsp?</snapshotUrl>
+      <unionSnapshotUrl>http://up.9aola.com/snapshot.jsp?</unionSnapshotUrl>
+      <clientLogSite>http://clientlog.mygame.com:8888/</clientLogSite>
+      <unionclientLogSite>http://clientlog.mygame.com:8888/</unionclientLogSite>
+      <logErrorSiteUrl>http://183.61.254.162:8050/pushErrorMessage.action</logErrorSiteUrl>
+      <webLoginUrl>http://account.100bt.com/game/auth/login.html</webLoginUrl>
+      <registerUrl>newRegister.jsp</registerUrl>
+    </urls>
+    <idleTime>7200</idleTime>
+  </server>
+  <zoneInfo countMax ="2000" indexMax ="2000" countMaxByIP ="15000"/>
+</config>
